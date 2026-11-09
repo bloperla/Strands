@@ -1,7 +1,7 @@
 // Strands service worker: offline support.
 // Bump VERSION whenever any file changes so installed copies fetch the new set together.
 const PREFIX = 'strands-';
-const VERSION = 'v23';
+const VERSION = 'v24';
 const CACHE = PREFIX + VERSION;
 const ASSETS = ['./', './index.html', './app.js', './manifest.json', './icon-192.png', './icon-512.png',
   './vendor/react.production.min.js', './vendor/react-dom.production.min.js',
